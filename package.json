@@ -1,0 +1,26 @@
+{
+  "name": "techport",
+  "version": "1.0.0",
+  "description": "A responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "Alif",
+    "meem",
+    "Wali",
+    "Muhammad",
+    "HTML",
+    "CSS3",
+    "Sass",
+    "JS",
+    "Frontend",
+    "developer"
+  ],
+  "author": "Wali Muhammad",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.0"
+  }
+}

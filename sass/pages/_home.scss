@@ -1,0 +1,54 @@
+.aboutsection{
+
+    background-color: $color-black;
+    // background-image: linear-gradient(to right bottom, rgba($color-grey-dark-1, 1),
+    //                                   rgba($color-black, 1));
+    padding: 22rem 0;
+    // margin-top: -20vh;
+    // border-bottom: 1px solid $color-grey-dark-2;
+
+    @include respond(tab-port) {
+        padding: 20em 0;
+    }
+
+}
+
+.skill-section{
+
+    background-color: $color-black;
+    // background-image: linear-gradient(to right bottom, rgba($color-grey-dark-1, 1),
+    // rgba($color-black, 1));
+    padding: 20rem 0;
+    margin-top: -10rem;
+
+
+}
+
+.project-sections{
+    background-color: $color-black;
+    padding: 20rem 0;
+    margin-top: -10rem;
+    
+}
+
+.project-button{
+    text-align: center;
+    display: inline-block;
+    margin-left: 58rem;
+    margin-top: 5rem;
+}
+.exp-section{
+    background-color: $color-black;
+    padding: 18rem 0;
+
+}
+
+.contact-section{
+    background-color: $color-black;
+    padding: 20rem 0 20rem 0;
+}
+
+.footer-section{
+    background-color: #333;
+    padding: 10rem;
+}

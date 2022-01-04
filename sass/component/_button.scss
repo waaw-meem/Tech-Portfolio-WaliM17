@@ -1,0 +1,148 @@
+.btn{
+    &:link,
+    &:visited{
+
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 10rem;
+        // color: $color-grey-dark-3;
+        // background-color: $color-white;
+        padding: 1.6rem 6rem;
+        font-size: 1.6rem;
+
+        position: relative;
+
+        transition: all .3s;
+        
+    }
+
+    &:hover{
+       
+        transform: translateY(-3px);
+        box-shadow: 0 1rem 2rem rgba($color-grey-dark-2,.2);
+
+        // Testing here when you goes for behind after button
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+
+    &:active,
+    &:focus{
+       
+        outline: none;
+        transform: translateY(-1px);
+        box-shadow: 0 .5rem 1rem rgba($color-grey-dark-2,.1);
+
+
+    }
+
+    &--white{
+        background-color: $color-white;
+        color: $color-grey-dark;
+
+        // define color after button 
+        &::after{
+            background-color: white;
+        }
+    }
+
+    // after element of the button
+
+    &::after{
+
+        content: "";
+        display: inline-block;
+
+        width: 100%;
+        height: 100%;
+
+        border-radius: 10rem;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+
+    }
+
+    &-animated{
+
+        animation: moveInBottom 1s ease-out;
+        animation-fill-mode: backwards;
+
+    }
+}
+
+.second-btn{
+
+
+    &,
+    &:link,
+    &:active{
+
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        display: inline-block;
+        border: none;
+
+        outline: 2px solid $color-portfolio-logo;
+        background-color: $color-grey-dark-3;
+        color: $color-white;
+
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+
+        position: absolute;
+        transition: all .3s;
+
+        border-radius: 5rem;
+
+        border: none;
+        cursor: pointer;
+
+
+
+    }
+
+    &:hover{
+       
+        transform: translateY(-3px);
+        background-color: $color-portfolio-logo;
+        color: $color-white;
+        // box-shadow: 0 1rem 2rem rgba($color-grey-dark-2,.2);
+
+        // Testing here when you goes for behind after button
+    
+    }
+
+    &:active,
+    &:focus{
+
+        outline: none;
+        transform: translateY(-1px);
+
+        // box-shadow: 0 .5rem 1rem rgba($color-grey-dark-2,.1);
+
+
+    }
+
+
+}
+
+.btn-black{
+    
+    padding: 2rem 4rem;
+    right: 60rem;
+    @include respond(tab-port) {
+      right: 40rem;
+    }
+    @include respond(phone) {
+        right: 25rem;
+      }
+}
