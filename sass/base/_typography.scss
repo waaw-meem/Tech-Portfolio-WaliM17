@@ -18,6 +18,8 @@
         animation-name: moveInLeft;
         animation-duration: 1.5s;
         animation-timing-function: ease-out;
+        -webkit-animation-delay: 1.75s;
+        animation-delay:1.75s;
 
     }
 
@@ -30,7 +32,8 @@
         letter-spacing: 1rem;
 
         animation: moveInRight 1.5s ease-out;
-    
+        -webkit-animation-delay: 1.75s;
+        animation-delay:1.75s;
 
     }
 

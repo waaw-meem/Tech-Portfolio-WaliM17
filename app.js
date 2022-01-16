@@ -2,7 +2,7 @@ const splash = document.querySelector(".splash");
 
 function display(){
 
-    setInterval(timer,2000);
+    setInterval(timer,1500);
 
 }
 

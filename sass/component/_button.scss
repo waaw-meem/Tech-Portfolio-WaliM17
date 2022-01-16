@@ -74,6 +74,8 @@
 
         animation: moveInBottom 1s ease-out;
         animation-fill-mode: backwards;
+        -webkit-animation-delay: 1.75s;
+        animation-delay:1.75s;
 
     }
 }
