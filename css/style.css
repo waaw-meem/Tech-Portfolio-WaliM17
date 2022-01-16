@@ -104,8 +104,8 @@ body {
     animation-name: moveInLeft;
     animation-duration: 1.5s;
     animation-timing-function: ease-out;
-    -webkit-animation-delay: 1.75s;
-    animation-delay: 1.75s; }
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
   .header-primary--sub {
     display: block;
     font-family: sans-serif;
@@ -113,8 +113,8 @@ body {
     font-weight: 400;
     letter-spacing: 1rem;
     animation: moveInRight 1.5s ease-out;
-    -webkit-animation-delay: 1.75s;
-    animation-delay: 1.75s; }
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s; }
 
 .heading-secondary {
   display: inline-block;
@@ -340,8 +340,8 @@ body {
 .btn-animated {
   animation: moveInBottom 1s ease-out;
   animation-fill-mode: backwards;
-  -webkit-animation-delay: 1.75s;
-  animation-delay: 1.75s; }
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s; }
 
 .second-btn, .second-btn:link, .second-btn:active {
   text-transform: uppercase;
