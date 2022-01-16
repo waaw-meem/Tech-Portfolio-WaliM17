@@ -1,14 +1,14 @@
-const splash = document.querySelector(".splash");
+// const splash = document.querySelector(".splash");
 
-function display(){
+// function display(){
 
-    setInterval(timer,1500);
+//     setInterval(timer,1500);
 
-}
+// }
 
-function timer(){
-       splash.classList.add('display-none');
-}
+// function timer(){
+//        splash.classList.add('display-none');
+// }
 
 
 // function
